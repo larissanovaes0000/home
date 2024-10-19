@@ -1,27 +1,47 @@
 # Home
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+Este é um projeto base elaborado para receber os microfrontends Livros e Editoras
 
-## Development server
+## 🚀 Começando
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para exibir todas as aplicações do microfrontend, executar o seguinte comando no terminal de cada projeto (Livros, Editoras e Home)
 
-## Code scaffolding
+Para instalar as dependências de cada projeto:
+```
+npm i
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para abrir o servidor:
+```
+npm run start
+```
 
-## Build
+Obs. no repositório Livros, executar também o seguinte comando para abrir o servidor do db.json (api mocada para execução dos serviços)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+json-server --watch db.json
+```
 
-## Running unit tests
+### 📋 Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+De que coisas você precisa para instalar o software e como instalá-lo?
 
-## Running end-to-end tests
+* Angular 17
+* Node Package Manager 20
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### 🔧 Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para executar o projeto basta inserir os seguintes comandos em seu terminal:
+
+```
+npm i 
+```
+
+na sequência:
+
+```
+npm start
+```
+
+Após o comandos serem executados, basta abrir o navegador e inserir o endereço http://localhost:4200/livros
